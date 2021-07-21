@@ -1,0 +1,28 @@
+{
+    "constants": {
+        "host": "chat.f-list.net/chat2",
+        "port": "9722",
+        "channel": "",
+        "owner": "",
+        "channel_name": "",
+		"dispatchers": {
+			"PIN": "handle_ping",
+        },
+        "valid_codes": [
+            "ERR",
+            "JCH",
+            "CIU",
+            "CKU",
+            "CTU",
+            "PRI",
+            "MSG",
+            "ICH",
+            "CDS",
+            "LCH",
+            "FLN"
+        ],
+    },
+    "messages": {
+        "status": "Hello World!"
+    }
+}
